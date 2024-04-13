@@ -14,18 +14,25 @@
 			<button type="button" class="navbar-toggle collapsed"
 				data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
 				aria-expanded="false">
-				<span class="icon-bar"></span> 
-				<span class="icon-bar"></span> 
-				<span class="icon-bar"></span>
+				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
 			</button>
 			<a class="navbar-brand" href="main.jsp">JSP 게시판 웹사이트</a>
 		</div>
-		<div class="navbar-brand-default">
-			<div>
-				<button type="button" class="navbar-toggle collapsed"
-					data-toggle="collapse" data-target="#bs-rxample-navbar-collapse-1"
-					aria-expanded="false"></button>
-			</div>
+		<div class="collapse navbar-collapse"
+			id="bs-example-navbar-coolapse-1">
+			<ui class="nav navbar-nav">
+			<li><a href="main.jsp">메인</a></li>
+			<li><a href="bbs.jsp">게시판</a></li>
+			</ui>
+			<ui class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle"
+				data-toggle="dropdown" role="button" aria-haspopup="true"
+				aria-expanded="false">접속하기<span class="caret"></span></a>
+				</li>
+			</ui>
+
 		</div>
 	</nav>
 	<script src="http://code.jquery-3.1.1.min.js"></script>
