@@ -57,7 +57,7 @@
 					</div>
 					<div class="form-group" style="text-align: center;">
 						<div class="btn-group" data-toggle="buttons">
-							<label class="btn btn-primary active"> 
+							<label class="btn btn-primary"> 
 							<input type="radio" name="userGender" autocomplete="off" value="남자" checked>남자
 							</label> 
 							<label class="btn btn-primary"> 
