@@ -2,11 +2,13 @@ package user;
 
 public class User {
     
+	 // 사용자의 정보를 저장하는 멤버 변수
     private String userID;
     private String userPassword;
     private String userName;
     private String userGender;
     private String userEmail;
+    // user에 대한 getter(필드 값을 반환)와 setter(필드 값을 설정) 메서드들
     
     public String getUserID() {
         return userID;
